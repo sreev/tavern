@@ -9,7 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-build/
+BUILD.bazel/
 develop-eggs/
 dist/
 downloads/
@@ -114,3 +114,9 @@ pytype_output
 out/
 **/*.iml
 .idea
+
+.ijwb/
+bazel-bin
+bazel-out
+bazel-tavern
+bazel-testlogs
