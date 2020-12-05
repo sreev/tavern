@@ -1,6 +1,6 @@
+from contextlib import ExitStack
 import os
 import tempfile
-from contextlib import ExitStack
 from unittest.mock import Mock
 
 import pytest
